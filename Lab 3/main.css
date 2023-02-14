@@ -1,0 +1,125 @@
+.banner{
+    margin-bottom: 0px;
+    font-size:xx-large;
+    color: aliceblue;
+    font-size: xxx-large;
+    font-weight: bold;
+    padding-top: 100px;
+    background-image: url("55555.jpg");
+    background-size:cover;
+    height: 400px;
+    text-align: center;
+
+} 
+a:active{
+    color:black;
+    background-color:gold;
+    border: 2px solid firebrick;
+
+}
+.menu li{
+    display: inline;
+    font-family: Arial;
+    padding-right: 170px;
+    margin-left: 0px;
+}
+P::first-letter{
+    font-size: large;
+
+}
+
+a:hover{
+    color:yellow;
+    background-color: aqua;
+    border: 2px solid darkblue;
+}
+a:visited{
+    color:bisque;
+    background-color:mediumslateblue; 
+    border: 2px solid beige;
+    font-weight: bold;
+}
+body{
+    background-color:rgb(75, 142, 169);
+
+}
+p {
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+    text-align: center;
+    font-weight: bold;
+}
+#task55 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: aliceblue;
+    text-shadow: 2px;
+    background-color:rgb(32, 32, 153);
+    border: 4px solid;
+    border: white dashed;
+    text-align: center;
+}
+#req1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-shadow: 2px;
+    color: aliceblue;
+    border: 4px solid;
+    border:white dashed;
+    background-color:rgb(32, 32, 153);
+    text-align: center;
+}
+#sub1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-shadow: 2px;
+    border: 4px solid;
+    color: aliceblue;
+    border: white dashed;
+    background-color:rgb(32, 32, 153);
+    text-align: center;
+}
+#grade1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: aliceblue;
+    text-shadow: 2px;
+    border: 4px solid;
+    border:white dashed;
+    background-color:rgb(32, 32, 153);
+    text-align: center;
+}
+#photo {
+    text-align: left;
+    margin-right: auto;
+}
+.topic {
+    text-align: center;
+    font-style: italic;
+    font-size: xx-large;
+
+}
+h5[name="Catg"] {
+    color: red;
+    font-size: large;
+}
+#cont{
+    text-align: left;
+}
+#more {
+    text-align: left;
+}
+h5[name="links"] {
+    color: red;
+    font-size: large;
+}
+.categories li {
+    display: inline;
+    padding-right: 100 px;
+    margin-left: 0px;
+}
+.quick_links li {
+    display: inline;
+    padding-right: 100 px;
+    margin-left: 0px;
+}
