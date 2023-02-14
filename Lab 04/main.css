@@ -1,0 +1,305 @@
+* {
+    box-sizing: border-box;
+}
+.banner{
+    margin-bottom: 0px;
+    font-size:xx-large;
+    color: aliceblue;
+    font-size: 4em;
+    font-weight: bold;
+    padding-top: 100px;
+    background-image: url("stars.jpg");
+    background-size:cover;
+    height: 50vh;
+    text-align: center;
+}
+#taskimage {
+    max-width: 100%;
+    height: auto;
+    position:relative;
+}
+#photo
+{
+    margin-left:auto;
+    margin-right:auto;
+}
+a:active{
+    color:black;
+    background-color:gold;
+    border: 1em solid firebrick;
+
+}
+.menu li{
+    display: inline;
+    font-family: Arial;
+    padding-left: 30px;
+    padding-right: 0 px;
+    text-align: center;
+  
+}
+nav li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+
+P::first-letter{
+    font-style: italic;
+}
+
+a:visited{
+    color:red;
+    background-color:mediumslateblue; 
+    border: 2px solid black;
+    font-weight: bold;
+}
+a:hover{
+    color:yellow;
+    background-color: aqua;
+    border: 2px  solid red;
+}
+body{
+    background-color:rgb(135, 193, 216);
+
+}
+p {
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+    text-align: center;
+    font-weight: bold;
+}
+#task55 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: aliceblue;
+    text-shadow: 4em;
+    border: 1em solid;
+    border: white dashed;
+    background-color:rgb(32, 32, 153);
+    text-align: center;
+}
+#req1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-shadow: 4em;
+    color: aliceblue;
+    border: 2em solid;
+    border:white dashed;
+    background-color:rgb(32, 32, 153);
+    text-align: center;
+}
+#sub1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-shadow: 4em;
+    border: 1em solid;
+    color: aliceblue;
+    border: white dashed;
+    background-color:rgb(32, 32, 153);
+    text-align: center;
+    padding-bottom: 10px;
+}
+#grade1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: aliceblue;
+    text-shadow: 2px;
+    background-color:rgb(32, 32, 153);
+    border: 2px dashed;
+    border-color: white;
+   margin-top: 10px;
+}
+
+#grading {
+    text-align: center;
+    
+}
+#photo {
+    text-align: center;
+    margin-right: auto;
+}
+.topic {
+    text-align: center;
+    font-style: italic;
+    font-size: xx-large;
+
+}
+h5[name="Catg"] {
+    color: aquamarine;
+    font-size: large;
+}
+#cont{
+    text-align: center;
+    color: aquamarine;
+}
+#more {
+    text-align: center;
+}
+h5[name="links"] {
+    color: aquamarine;
+    font-size: large;
+}
+.categories ul li {
+    display: inline;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin: 4px;
+}
+.categories ul li a{
+    color:aquamarine;
+    font-weight: bold;
+}
+
+.quick_links li {
+    display: inline;
+    padding-right: 80px;
+    padding-left: 80px;
+    margin: 4px;
+}
+.quick_links ul li a{
+    color: aquamarine;
+    font-weight: bold;
+}
+
+#ddl {
+    font-size: larger;
+    color:darkblue;
+}
+#task, #submission {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background-color: rgb(32, 32, 153);
+    text-align: center;
+
+
+}
+#requirements {
+    float: left;
+    width: 60%;
+    padding: 15px;
+    background-color: rgb(32, 32, 153);
+    font-size: smaller;
+    text-align: center;
+    
+}
+#main-heading:after{
+content: "";
+display: table;
+clear: both;
+}
+.categories a:hover {
+    background-color: blueviolet;
+    color: crimson;
+    border: 3px solid darkblue;
+}
+
+.quick_links a:hover {
+    background-color: blueviolet;
+    color: crimson;
+    border: 3px solid darkblue;
+}
+
+@media screen and (max-width: 768px) {
+    #task, #requirements, #submission{
+        width: 100%;}
+        .menu a {
+        clear:both;
+        display:block;
+        border: 2px solid black;
+        background-color: aqua;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+    }    
+    .categories a{
+        clear: both;
+        display: block;
+        text-align: center;
+    }
+    .quick_links a{
+        clear: both;
+        display: block;
+        text-align: center;
+    }
+    img {
+        max-width: fit-content;
+        height: auto;
+    }
+    h2, h4 {
+        text-shadow: 3px 3px 3px red;
+    }
+    header {
+        text-shadow: 9px 9px 6px blueviolet;
+    }
+}
+
+@media screen and (min-width: 768px) {
+     p {
+        color: rgb(233, 233, 233);
+    font: size 2em;
+    font-style:italic;
+    }
+    .menu a {
+        border: 2px solid black;
+        background-color: aqua;
+        margin-right:7%;
+        padding: 10px;
+        margin-left: 0px;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    } 
+    h2, h4 {
+        text-shadow: 3px 3px 3px  blueviolet;
+       
+    }
+    header {
+        text-shadow: 6px 6px 3px red;
+    }
+}
+td {
+    text-align: left;
+}
+.more {
+    text-align: center;
+}
+
+h3, h4, h5 {
+    text-align: center;
+}
+
+.center {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.imp {
+    text-align: center;
+}
+.dates {
+    text-align: center;
+}
+#ddl {
+    text-align: center;
+}
+.map {
+    text-align: center;
+}
+footer {
+    flex-wrap: wrap;
+    background-color: darkblue;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 100%;
+}
+h5 {
+    font-size: x-large;
+    color: aquamarine;
+}
