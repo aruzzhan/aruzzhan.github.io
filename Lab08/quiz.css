@@ -1,0 +1,38 @@
+
+
+#questions {
+	margin-top: 0;
+	margin-bottom: 5px;
+    border-color: black;
+}
+
+h1{
+	margin-left: 20px;
+	margin-bottom: 5px;
+    color:#689cc7;
+    font-family: 'Times New Roman', Times, serif;
+	text-align:center;
+
+}
+
+#check_button {
+	display: block;
+	margin: 20px auto;
+    color: black;
+	padding: 10px 20px;
+	background-color: #689cc7;
+	border-radius: 5px;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+#quiz-result {
+	display: block;
+	font-size: x-large;
+    color: red;
+    text-align: center;
+	
+}
+
+  
+  
