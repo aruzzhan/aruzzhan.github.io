@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src="main.js"></script>
+  <title>Aruzhan Seidakhanova's CV</title>
+</head>
+<body>
+  <header>
+    <div class="banner">Curriculum Vitae</div>
+  </header>
+   <container class="navigation">
+    <div>
+      <img src="images/nulogo.png" alt="logo" width="125px" height="125px">
+    </div>
+    <ul class="menu">
+      <li><a class="active" href="#profile">Profile</a></li>
+        <li><a href="#education">Education Level</a></li>
+        <li><a href="#achievements">Academic Achievements</a></li>
+        <li><a href="#activities">Extracurricular Activities</a></li>
+        <li><a href="#languages">Languages skills</a></li>
+        <li><a href="pages/researchexperience.html">Research projects</a></li>
+        <li><a href="#contactdetails">Contact information</a></li>
+    </ul>
+  </container >
+  
+<div class="profile"> 
+  <article id="profile">
+      <h2>Profile: Aruzhan Seidakhanova</h2>
+      <p>
+        My full name is Aruzhan Seidakhanova. At the moment, I’m a 4th year undergraduate student in Biological Sciences at Nazarbayev University (Astana, Kazakhstan). I have a long list of interests, including biological research, cell spheroid production and learning new languages. Starting from January 2022 to September 2023, I was in board members of Red Crescent Soceity of Astana, where I had a chance to participate in various volunteering and charity events. Since June 2022, I am a part of research team in laboratory of Professor Paunov at Nazarbayev University (Astana, Kazakhstan). I am working on development of 3D cell spheroids from humna cancer cell lines and testing prospective drugs on these samples. The results of this research will be published in International Journal very soon. 
+      
+      </p>
+    </article>
+    </div>
+ 
+<div class="collection"> 
+  <article id="collection">
+      <h2>Photogallery of my achievements (you can click on the images to zoom)</h2>
+      <p><ul>
+        <li><b>Image 1:</b> Red Crescent Socity member</li>
+        <li><b>Image 2:</b> High School Graduation</li>
+        <li><b>Image 3:</b> University club activities</li>
+        <li><b>Image 4:</b> Laboratory experiences</li>
+        <li><b>Image 5:</b> Deans List award ceremony</li>
+        <li><b>Image 6:</b> Research Assistant</li>
+      </ul></p>
+    </article>
+  </div>
+ 
+
+<div class="collect">
+  <div class="boxesofphoto">
+    <img src="images/rc.jpg" style="width:100%" onclick="startslide();currentSlide(1)" class="hover-shadow">
+  </div>
+  <div class="boxesofphoto">
+    <img src="images/highschool.jpg" style="width:100%" onclick="startslide();currentSlide(2)" class="hover-shadow">
+  </div>
+  <div class="boxesofphoto">
+    <img src="images/otherclubs.jpg" style="width:100%" onclick="startslide();currentSlide(3)" class="hover-shadow">
+  </div>
+  <div class="boxesofphoto">
+    <img src="images/lab.jpg" style="width:100%" onclick="startslide();currentSlide(4)" class="hover-shadow">
+  </div>
+  <div class="boxesofphoto">
+    <img src="images/deanslist.jpg" style="width:100%" onclick="startslide();currentSlide(5)" class="hover-shadow">
+  </div>
+<div class="boxesofphoto">
+  <img src="images/lab2.jpg" style="width:100%" onclick="startslide();currentSlide(6)" class="hover-shadow">
+</div>
+</div>
+
+<div id="Lightbox" class="lightbox">
+  <span class="close cursor" onclick="endslide()">&times;</span>
+  <div class="Boxcont">
+
+    <div class="Photographies">
+      <div class="Photocount">1 / 6</div>
+      <img src="images/rc.jpg" style="width:100%">
+    </div>
+
+    <div class="Photographies">
+      <div class="Photocount">2 / 6</div>
+      <img src="images/highschool.jpg" style="width:100%">
+    </div>
+
+    <div class="Photographies">
+      <div class="Photocount">3 / 6</div>
+      <img src="images/otherclubs.jpg" style="width:100%">
+    </div>
+
+    <div class="Photographies">
+      <div class="Photonucount">4 / 6</div>
+      <img src="images/lab.jpg" style="width:100%">
+    </div>
+
+    <div class="Photographies">
+      <div class="Photocount">5 / 6</div>
+      <img src="images/deanslist.jpg" style="width:100%">
+    </div>
+
+    <div class="Photographies">
+      <div class="Photocount">6 / 6</div>
+      <img src="images/lab2.jpg" style="width:100%">
+    </div>
+
+    <a class="previousphoto" onclick="nextSlide(-1)">&#10094;</a>
+    <a class="nextphoto" onclick="nextSlide(1)">&#10095;</a>
+
+  
+    <div class="containerwithinfo">
+      <p id="descriptioninfo"></p>
+    </div>
+
+
+    <div class="boxesofphoto">
+      <img class="demo cursor" src="images/rc.jpg" style="width:100%" onclick="currentSlide(1)" alt="<i>Red Crescent Society member</i>">
+    </div>
+
+    <div class="boxesofphoto">
+      <img class="demo cursor" src="images/highschool.jpg" style="width:100%" onclick="currentSlide(2)" alt="<i>High School Diploma with distinction</i>">
+    </div>
+
+    <div class="boxesofphoto">
+      <img class="demo cursor" src="images/otherclubs.jpg" style="width:100%" onclick="currentSlide(3)" alt="<i>University club activities</i>">
+    </div>
+
+    <div class="boxesofphoto">
+      <img class="demo cursor" src="images/lab.jpg" style="width:100%" onclick="currentSlide(4)" alt="<i>Research Assistant</i>">
+    </div>
+
+    <div class="boxesofphoto">
+      <img class="demo cursor" src="images/deanslist.jpg" style="width:100%" onclick="currentSlide(5)" alt="<i>Double Dean`s list holder</i>">
+    </div>
+    <div class="boxesofphoto">
+      <img class="demo cursor" src="images/lab2.jpg" style="width:100%" onclick="currentSlide(6)" alt="<i>Reaserch project</i>">
+    </div>
+  </div>
+</div>
+
+<section>
+<div class="education">
+  <article id="education">
+      <h2>Education level</h2>
+       <ul class='list 1'>
+        <li><b>Bachelor of Science in Biological Sciences</b> (August 2019 - present): Nazarbayev University - Astana, Kazakhstan</li>
+        <li><b>High School Diploma</b> (2013 - 2018): Nazarbayev Intellectual School- Taraz, Kazakhstan. To know more about my home town please visit this page: <a href="pages/index lab2.html"> Taraz</a></li>
+        <img src="images/edu1.png" class="eduimage" >
+      </ul>
+      </p>
+    </article>
+    </div>
+    
+
+
+<div class="achievements">
+  <article id="achievements">
+      <h2>Achievements</h2>
+        <ul class='list 2'>
+          <li>Double <b>Dean's list</b> award winner: Spring 2022, Fall 2022</li>
+          <li>Graduated NIS with Diploma with <b>distinctions</b> (“Red Diploma” award) – excellent grades in all subjects, confirmed by Cambridge examination </li>
+          <li><b>Semi-finalist</b> Case championship of projects organized by DASCO group in reneable energy sources (2022)</li>
+          <li>Partcipation in <b>National Forum of Healthcare leaders</b>organized by Kazakhstan Association (2022)</li>
+          <li> Participation in <b>Baqutty Shanyrak</b> project organized by Nazarbayev University (2022)</li>
+          <li><b>Bronze prize-winner</b> in sport competition in running category (2017)</li>
+        </ul>
+        <img src="images/achieve.png" class="image2" >
+    </article>
+    </div>
+<div class="activities">
+  <article id="activities">
+      <h2>Extracurricular activities</h2>
+        <ul class='list 3'>
+          <li><b>Co-founder of OncoSense</b> social project <a href="https://instagram.com/onco.sense?igshid=YmMyMTA2M2Y="> </a> (2022-present)</li>
+          <li><b>Board member</b> of Nazarbayev University Psychology Club (2022-2023)</li>
+          <li><b>Winner and participant of multiple international langauge competitions</b> (2007-present)</li>
+          <li><b>Member</b> of Nazarbayev University <b>Enactus club</b> (2019-2020)</li>
+          <li><b>Member</b> of Nazarbayev University <b>Red Crescent Club</b> (2021-2022)</li>
+          <li>Volunteer <b>in IHelper and Baqutty Skanyrak projects</b> (2022)</li>
+        </ul>
+         <img src="images/extra.png" class="image3" >
+    </article>
+    </div>
+<div class="languages">
+  <article id="languages">
+      <h2>Languages</h2>
+        <ul class='list 4'>
+          <li><b>Russian</b> - native speaker</li>
+          <li><b>Kazakh</b> - native speaker</li>
+          <li><b>English</b> - advanced level</li>
+          <li><b>Turkish</b> – intermediate, attending A2 level courses</li>
+          <li><b>Frecnch</b> – elementary, covered FRE101 course</li>
+        </ul>
+        <img src="images/lang3.png" class="image4" >
+    </article>
+    </div>
+</section>
+
+<div class="research">
+  <article id="research">
+      <h2>My Research Experience</h2>
+      <p>
+        I have been working as a research assistant for 10 months in the laboratory, which focuses on advanced nanomaterials. To get more information about my reasearch experience information follow this <b><a href="pages/researchexperience.html"> link</a></b> or official website of the laboratory: <a href="https://paunovgroup.org/"> Paunov Group</a>
+        
+      </p>
+    </article>
+    </div>
+
+
+
+<footer>
+    <div class="contactdetails">
+     <article id="contactdetails">
+      <div >
+        <h2>Contact Information</h2>
+        <p>
+          Astana, Kazakhstan <br>
+          Nazarbayev University <br>
+          53 Kabanbay Batyr avenue <br>
+          Block D5, Floor 4 <br>
+          Ph.: +7(747)7232508 <br>
+          Email:
+          <a href="mailto:aruzhan.seidakhanova@nu.edu.kz" class="email">
+            aruzhan.seidakhanova@nu.edu.kz
+          </a><br>
+          Instagram account:
+          <a href="https://instagram.com/seidakkhanova?igshid=YmMyMTA2M2Y=" class="instagram">
+        @seidakkhanova
+          </a><br>
+          Linkedin account:
+          <a href="https://www.linkedin.com/in/aruzhan-seidakhanova-2797761ba?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BjmebZZQMQbmXohuPVHj60Q%3D%3D" class="Linkedin">
+        @Aruzhan Seidakhanova
+          </a>
+        </p>
+      </div>
+
+
+
+     
